@@ -17,3 +17,24 @@ dbt init jaffle_shop
 cd jaffle_shop
 dbt debug
 ```
+
+## Materializing the table and the view
+
+```
+dbt run
+```
+
+## Generating documentation
+
+```
+dbt docs generate
+dbt docs serve
+```
+
+## Revisit this section of the guide
+
+[Build models on top of other models](https://docs.getdbt.com/guides/manual-install?step=11)
+
+## Proper documentation
+
+[Here](https://docs.getdbt.com/docs/core/connect-data-platform/connection-profiles)
